@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
 <nav
-  className="w-[50%] mx-auto mt-12 border border-gray-200 rounded-3xl bg-white"
+  className="w-[90%] mx-auto mt-12 border border-gray-200 rounded-3xl bg-white"
   style={{
     boxShadow: `
       0 -8px 20px rgba(59,130,246,0.4),
