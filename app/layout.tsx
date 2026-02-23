@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Navbar from "../components/layout/Navbar";
 
 import "./globals.css";
+import TopBarClock from "../components/layout/TopBarClock";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl">
       <body className={``}>
+        <TopBarClock/>
         <Navbar/>
         {children}
         </body>
