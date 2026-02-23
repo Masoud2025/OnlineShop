@@ -3,6 +3,7 @@ import Navbar from "../components/layout/Navbar";
 
 import "./globals.css";
 import TopBarClock from "../components/layout/TopBarClock";
+import Footer from "../components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <TopBarClock/>
         <Navbar/>
         {children}
+        <Footer/>
         </body>
     </html>
   );
